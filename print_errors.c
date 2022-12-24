@@ -26,7 +26,7 @@ void print_error(int *i, char *s, char **argv)
 	free(buf3);
 	buf5 = str_concat(buf4, ": not found\n");
 	free(buf4);
-	write(2, bf5, _strlen(buf5));
+	write(2, buf5, _strlen(buf5));
 	free(buf5);
 }
 
